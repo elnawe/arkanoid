@@ -1,0 +1,28 @@
+* Arkanoid by elnawe :ATTACH:
+
+Just another clone of Arkanoid done with C and SDL2 by only reading the SDL2
+official Wiki: https://wiki.libsdl.org/.
+
+This is shitty code, I did it in just a couple of hours and because I was
+bored and needed to get back to game programming. Everything is in just one
+file and there are a couple of bugs that makes the game more hilarious.
+
+Also with great Tetris music in the background!
+
+Feel free to clone this repo and do whatever.
+
+[[screenshot.jpeg]]
+
+** Tools used (and credits)
+
+- C Programming Language
+- GNU Emacs
+- SDL2 - libsdl.org: https://www.libsdl.org/
+- Tetris Music - archive.org: https://archive.org/details/TetrisThemeMusic
+
+#+BEGIN_SRC bash
+git clone git@github.com/elnawe/arkanoid
+cd arkanoid
+make build
+make run
+#+END_SRC
